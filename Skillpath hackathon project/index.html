@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skillpath - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Skillpath</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Roadmaps</a>
+    </nav>
+    <div class="auth-buttons">
+      <button class="login">Login</button>
+      <button class="signup">Sign up</button>
+    </div>
+  </header>
+  <section class="hero">
+    <h1>Enter your goal to generate a learning roadmap.</h1>
+    <div class="search-bar">
+      <input type="text" id="goalInput" placeholder="e.g Become a React Developer" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="career-buttons">
+      <button class="career-card" data-career="React Developer">React Developer</button>
+      <button class="career-card" data-career="Data Scientist">Data Scientist</button>
+    </div>
+  </section>
+
+  <section class="career-carousel">
+    <div class="scroll-wrapper" id="scrollWrapper">
+      <div class="career-card" data-career="UI/UX Designer">UI/UX Designer</div>
+      <div class="career-card" data-career="Frontend Developer">Frontend Developer</div>
+      <div class="career-card" data-career="React Developer">React Developer</div>
+      <div class="career-card" data-career="Data Scientist">Data Scientist</div>
+      <div class="career-card" data-career="Backend Developer">Backend Developer</div>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
